@@ -2,9 +2,9 @@
 
 module.exports = {
 	app: {
-		title: 'MEAN.JS',
-		description: 'Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js',
-		keywords: 'mongodb, express, angularjs, node.js, mongoose, passport'
+		title: 'maureen.codes',
+		description: 'Full-Stack Software Engineer',
+		keywords: 'personal, portfolio, branding, software, code'
 	},
 	port: process.env.PORT || 3000,
 	templateEngine: 'swig',
@@ -48,6 +48,8 @@ module.exports = {
 			],
 			js: [
 				'public/lib/angular/angular.js',
+				'public/lib/angular-material/angular-material.js',
+				'public/lib/angular-aria/angular-aria.js',
 				'public/lib/angular-resource/angular-resource.js',
 				'public/lib/angular-animate/angular-animate.js',
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
@@ -56,7 +58,8 @@ module.exports = {
 			]
 		},
 		css: [
-			'public/modules/**/css/*.css'
+			'public/modules/**/css/*.css',
+			'public/lib/angular-material/angular-material.css'
 		],
 		js: [
 			'public/config.js',
