@@ -2,8 +2,8 @@
 
 module.exports = {
 	app: {
-		title: 'maureen.codes',
-		description: 'Full-Stack Software Engineer',
+		title: 'maureenCodes!',
+		description: 'dev made pretty',
 		keywords: 'personal, portfolio, branding, software, code'
 	},
 	port: process.env.PORT || 3000,

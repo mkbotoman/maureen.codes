@@ -1,12 +1,12 @@
 {
-	"name": "meanjs",
-	"description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js.",
+	"name": "maureen.codes",
+	"description": "dev made pretty",
 	"version": "0.3.3",
 	"private": false,
-	"author": "https://github.com/meanjs/mean/graphs/contributors",
+	"author": "maureen",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/meanjs/mean.git"
+		"url": "https://github.com/mkbotoman/maureen.codes"
 	},
 	"engines": {
 		"node": "0.10.x",

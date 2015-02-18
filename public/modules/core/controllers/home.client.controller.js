@@ -5,8 +5,8 @@ angular.module('core').controller('HomeController', ['$scope', 'ngMaterial', 'Au
 	function($scope, Authentication, ngMaterial) {
 		// This provides Authentication context.
 		$scope.authentication = Authentication;
-		$scope.toggleSidenav = function(menuId) {
-	    	$mdSidenav(menuId).toggle();
-		};
+		// $scope.toggleSidenav = function(menuId) {
+	 //    	$mdSidenav(menuId).toggle();
+		// };
 	}
 ]);

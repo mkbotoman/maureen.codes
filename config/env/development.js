@@ -12,7 +12,7 @@ module.exports = {
 		}
 	},
 	app: {
-		title: 'MEAN.JS - Development Environment'
+		title: 'maureen.codes'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
