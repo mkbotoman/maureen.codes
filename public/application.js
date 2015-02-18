@@ -18,3 +18,11 @@ angular.element(document).ready(function() {
 	//Then init the app
 	angular.bootstrap(document, [ApplicationConfiguration.applicationModuleName]);
 });
+
+// color pallette
+// angular.module(ApplicationConfiguration.applicationModuleName).config(['$mdThemingProvider',
+//         //Angular-Material theme
+//         $mdThemingProvider.theme('default')
+//             .primaryColor('red')
+//             .accentColor('pink')
+// ]);

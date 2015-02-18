@@ -1,18 +1,12 @@
 <section data-ng-controller="HomeController">
   <body layout="column" ng-controller="AppCtrl">
-    <md-toolbar layout="row">
-      <!-- <button ng-click="toggleSidenav('left')" hide-gt-sm class="menuBtn">
-        <span class="visually-hidden">Menu</span>
-      </button> -->
-      <h1>Hello World</h1>
-    </md-toolbar>
     <div layout="row" flex>
-      <!-- <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$media('gt-sm')">
-        
-      </md-sidenav> -->
       <div layout="column" flex id="content">
           <md-content layout="column" flex class="md-padding">
-            
+            <div layout="row" layout-margin layout-fill layout-padding>
+              <div flex>I'm on the left, and there's an empty area around me.</div>
+              <div flex>I'm on the right, and there's an empty area around me.</div>
+            </div>
           </md-content>
       </div>
     </div>
